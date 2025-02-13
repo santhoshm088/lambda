@@ -5,7 +5,7 @@ const app = express();
 app.get("/getName", (req, res) => {
   const phone = req.query.phone;
  
-  const name = phone === "9876543210" 
+  const name = phone === "8006183088" 
   ? "John Doe" 
   : phone === "9976513631" 
     ? "sandy" 
